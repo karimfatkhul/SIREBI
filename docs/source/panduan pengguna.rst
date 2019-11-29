@@ -28,38 +28,112 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
 	   :alt: gambar 1. halaman login
 
 
-  2.	Jika kombinasi nama pengguna dan password sesuai, Admin akan secara otomatis diarahkan ke halaman Dashboard.
-  3.	Pilih menu Kelola Pengguna.
-  4.	Lalu pada pojok kanan atas, pilih atau tekan tombol Tambah Pengguna. Selanjutnya secara otomatis Admin akan diarahkan ke halaman tambah pengguna.
-  5.	Pada halaman tambah pengguna, isikan semua detail pengguna sesuai dengan kolom isian yang ada.
-  6.	Pada kolom Role Pengguna, pilih peran pengguna sesuai dengan peran yang diinginkan.
-  7.	Tekan simpan.
-  8.  Jika data isian telah sesuai, sistem akan memberikan informasi bahwa data berhasil disimpan, dan Admin akan secara otomatis diarahkan ke halaman daftar pengguna yang sudah dibuat.
-  9.  Jika data isian tidak sesuai, sistem akan memberikan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
-
-   2.	Melihat detail akun pengguna
+ 2.	Jika kombinasi nama pengguna dan password sesuai, Admin akan secara otomatis diarahkan ke halaman Dashboard.
+ 3.	Pilih menu Kelola Pengguna.
+ 4.	Lalu pada pojok kanan atas, pilih atau tekan tombol Tambah Pengguna. Selanjutnya secara otomatis Admin akan diarahkan ke halaman tambah pengguna.
 
 
- 
+  .. figure:: images/tambah-pengguna.png
+     :width: 600
+     :alt: gambar 2. Tambah pengguna
 
-2. Organisasi Kemahasiswaan
+
+ 5.	Pada halaman tambah pengguna, isikan semua detail pengguna sesuai dengan kolom isian yang ada.
+ 6.	Pada kolom peran Pengguna, pilih peran pengguna sesuai dengan peran yang diinginkan.
+
+
+  .. figure:: images/peran-pengguna.png
+     :width: 600
+     :alt: gambar 3. Peran Pengguna
+
+
+ 7.	Tekan simpan.
+ 8.  Jika data isian telah sesuai, sistem akan memberikan informasi bahwa data berhasil disimpan, dan Admin akan secara otomatis diarahkan ke halaman daftar pengguna yang sudah dibuat.
+ 9.  Jika data isian tidak sesuai, sistem akan memberikan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+   
+**2.	Melihat detail akun pengguna**
+
+ 1. Pada halaman daftar pengguna, klik tanda **...** pada kolom opsi pada akun pengguna yang ingin dilihat detailnya.
+
+
+  .. figure:: images/detail-pengguna.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Pilih detail. Sistem akan otomatis mengarahkan ke halaman detail pengguna sesuai dengan pengguna yang dipilih
+
+
+
+  .. figure:: images/detail-pengguna2.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+**2.  Memperbarui detail akun pengguna**
+
+ 1. Pada halaman daftar pengguna, klik tanda **...** pada kolom opsi pada akun pengguna yang ingin diperbarui detailnya.
+
+
+  .. figure:: images/detail-pengguna.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Pilih Edit. Sistem akan otomatis mengarahkan ke halaman edit pengguna sesuai dengan pengguna yang dipilih
+
+
+  .. figure:: images/edit-pengguna.png
+     :width: 600
+     :alt: gambar 4. Edit Pengguna
+
+
+**3.  Menghapus akun pengguna**
+
+ 1. Pada halaman daftar pengguna, klik tanda **...** pada kolom opsi pada akun pengguna yang ingin diperbarui detailnya.
+
+
+  .. figure:: images/detail-pengguna.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Pilih Hapus. Sistem akan menampilkan jendela konfirmasi, apakah proses penghapusan akun akan diteruskan atau tidak. Pilih OK untuk mengkonfirmasi penghapusan akun. 
+
+
+  .. figure:: images/hapus-pengguna.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+
+Organisasi Kemahasiswaan
+=================================================
 	
 	:code:`Organisasi Kemahasiswaan` mempunyai peran untuk dapat mengajukan usulan perizinan kegiatan dan perizinan tempat. Selain itu, Organisasi Kemahasiswaan juga dapat memonitor jalannya proses perizinan yang telah diajukan. Seperti halnya melihat status pengajuan usulan kegiatan, apakah disetujui, ditolak atau masih meunggu proses pertimbangan dari pihak berwenang.
 
 
-3. Wakil Dekan Bidang Kemahasiswaan
+Wakil Dekan Bidang Kemahasiswaan
+=================================================
 	
 	Pengguna dengan peran sebagai :code:`Wakil Dekan Bidang Kemahasiswaan` mempunyai hak khusus untuk meninjau usulan perizinan kegiatan yang dilakukan oleh Organisasi kemahasiswaan. Selanjutnya, :code:`Wakil Dekan Bidang Kemahasiswaan` dapat mengambil keputusan untuk menyetujui ataupun menolak usulan perizinan kegiatan tersebut.
 
 
-4. Wakil Dekan Bidang Umum dan Keuangan
+Wakil Dekan Bidang Umum dan Keuangan
+=================================================
 
 	Pengguna dengan peran sebagai :code:`Wakil Dekan Bidang Umum dan Keuangan` mempunyai hak khusus untuk meninjau usulan perizinan tempat yang dilakukan oleh Organisasi kemahasiswaan. Selanjutnya, :code:`Wakil Dekan Bidang Umum dan Keuangan` dapat mengambil keputusan untuk menyetujui ataupun menolak usulan perizinan tempat tersebut.
 
-5. Kepala Bagian Tata Usaha
+
+
+Kepala Bagian Tata Usaha
+=================================================
+
 
 	:code:`Kepala bagian Tata Usaha` mempunyai peran dan hak akses untuk memonitor jalannya proses perizinan yang dilakukan oleh Organisasi Kemahasiswaan. Selanjutnya, apabila perizinan kegiatan atau perizinan tempat disetujui oleh Wakil Dekan Bidang Kemahasiswaan dan Wakil Dekan Bidang Umum dan Keuangan, :code:`Kepala bagian Tata Usaha` akan menyiapkan surat persetujuan untuk perizinan tersebut.
 
-6. Kasubag Akademik
+Kasubag Akademik
+=================================================
 
 	:code:`Kasubag Akademik` mempunyai hak akses untuk melakukan rekapitulasi terhadap semua proses perizinan yang sedang berjalan, sebagai bentuk kontrol dan tanggung jawab serta laporan bagi Fakultas.
