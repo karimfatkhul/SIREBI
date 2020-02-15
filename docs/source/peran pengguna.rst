@@ -14,7 +14,7 @@ Untuk mempermudah penggunaan SIREBI, sistem ini terbagi atas beberapa peran peng
 	
 	Peran utama :code:`Admin` dalam SIREBI adalah mengelola semua pengguna yang terlibat dalam pemakaian sistem ini, mulai dari membuat akun untuk pengguna, mengedit akun serta menghapus akun pengguna. :code:`Admin` juga mempunyai hak akses untuk membuat daftar Organisasi Kemahasiswaan yang berada di lingkup Fakultas Ilmu Sosial dan Ilmu Politik UPN “Veteran” Yogyakarta.
 
-	Selain dua kemampuan di atas, Admin juga mempunyai hak akses untuk mengelola daftar tempat yang dapat dapat dipinjamkan untuk kegiatan Organisasi Kemahasiswaan. :code:`Admin` juga dapat memonitor semua jalannya proses pengajuan perizinan kegiatan dan perizinan tempat yang diajukan oleh Organisasi Kemahasiswaan.  
+	Selain dua kemampuan di atas, Admin juga mempunyai hak akses untuk mengelola daftar tempat yang dapat dipinjamkan untuk kegiatan Organisasi Kemahasiswaan. :code:`Admin` juga dapat memonitor semua jalannya proses pengajuan perizinan kegiatan dan perizinan tempat yang diajukan oleh Organisasi Kemahasiswaan.  
  
 
 2. Organisasi Kemahasiswaan

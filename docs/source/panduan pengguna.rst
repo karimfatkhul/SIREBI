@@ -199,7 +199,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
 
 **8.  Menambahkan Daftar Tempat**
 
- 1. Pada panel menu di sebelah kiri, pilih menu :code:`Daftar Tempat`. Sistem akan menampilkan list Daftar Tempat, tekan tombol :code:`Tambah Data Tempat` untuk menambahkan data tempat baru.
+ 1. Pada panel menu di sebelah kiri, pilih menu :code:`Daftar Tempat`. Sistem akan menampilkan list Daftar Tempat, tekan tombol :code:`Tambah Daftar Tempat` untuk menambahkan data tempat baru.
 
 
   .. figure:: images/tempat.png
@@ -288,22 +288,22 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
  1. Pilih menu :code:`Izin Kegiatan`. Secara otomatis Organisasi Kemahasiswaan akan diarahkan ke halaman daftar Izin Kegiatan.
 
   
-  .. figure:: images/form-kegiatan.png
-     :width: 600
-     :alt: gambar 5. Kelola Akun
-
-
- 2. Pilih/tekan tombol :code:`Ajukan Kegiatan Baru` pada pojok kanan atas.
- 3. Lengkapi kolom isian pada form pengajuan izin kegiatan. Lampirkan file proposal kegiatan dalam bentuk :code:`PDF` atau :code:`docx`.
- 4. Tekan tombol :code:`Ajukan` untuk memperoses usulan kegiatan.
- 5. Jika data yang dimasukkan pada form isian valid, sistem akan memberikan pemberitahuan konfirmasi yang memberitahukan bahwa usulan kegiatan berhasil dikirimkan ke Wakil Dekan Bidang Kemahasiswaan untuk diproses. Selanjutnya sitem akan mengarahkan kita ke halaman daftar Izin Kegiatan yang telah dibuat.
-
-
   .. figure:: images/list-kegiatan.png
      :width: 600
      :alt: gambar 5. Kelola Akun
 
 
+ 2. Pilih/tekan tombol :code:`Ajukan Kegiatan Baru` pada pojok kanan atas. Sistem akan manampilkan formulir usulan Izin Kegiatan
+
+ .. figure:: images/form-kegiatan.png
+    :width: 600
+    :alt: gambar 5. Kelola Akun
+
+
+
+ 3. Lengkapi kolom isian pada form pengajuan Izin Kegiatan. Lampirkan file proposal kegiatan dalam bentuk :code:`PDF` atau :code:`docx`.
+ 4. Tekan tombol :code:`Ajukan` untuk memperoses usulan kegiatan.
+ 5. Jika data yang dimasukkan pada form isian valid, sistem akan memberikan pemberitahuan konfirmasi yang memberitahukan bahwa usulan kegiatan berhasil dikirimkan ke Wakil Dekan Bidang Kemahasiswaan untuk diproses. Selanjutnya sitem akan mengarahkan kita ke halaman daftar Izin Kegiatan yang telah dibuat.
  6. Jika data isian yang dimasukkan pada form isian tidak valid, sitem akan menampilkan pesan error. Ikuti petunjuk pada pesan error untuk mengatasi masalah yang ditemui.
  7. Status pengajuan usulan izin kegiatan dapat dilihat dalam Daftar Izin Kegiatan. Terdapat 3 status sesuai masing-masing kondisi yaitu menunggu, disetujui dan ditolak. 
 
@@ -313,12 +313,12 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
   :code:`Ditolak` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan tidak disetujui. Organisasi Kemahasiswaan dapat melihat alasan penolakan pada detail pengajuan usualan izin kegiatan. Selanjutnya jika diperlukan, Organisasi Kemahasiswaan dapat merevisi pengjuan usulan kegiatan untuk kembali diajukan ke Wakil Dekan Bidang Kemahasiswaan. 
 
- 7. Organisasi Kemahasiswaan akan mendapatkan pemberitahuan untuk setiap perubahan status dari usulan izin kegiatan yang diajukan. Pemberitahuan dapat dilihat pada ikon lonceng di sisi kanan atas ataupun melalui email Organisasi kemahasiswaan.
+ 8. Organisasi Kemahasiswaan akan mendapatkan pemberitahuan untuk setiap perubahan status dari usulan izin kegiatan yang diajukan. Pemberitahuan dapat dilihat pada ikon lonceng di sisi kanan atas ataupun melalui email Organisasi kemahasiswaan.
 
 
 **3. Melihat detail izin kegiatan**
 
- 1. Pilih menu :code:`Izin Kegiatan`. Pada halaman daftar Izin Kegiatan, tekan tanda :code:`...` pada kolom opsi pada baris izin kegiatan yang ingin dilihat detailnya.
+ 1. Pilih menu :code:`Izin Kegiatan`. Pada halaman daftar Izin Kegiatan, tekan tanda :code:`...` pada kolom opsi pada baris Izin Kegiatan yang ingin dilihat detailnya.
 
 
   .. figure:: images/kegiatan-dots.png
@@ -326,7 +326,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 2. Sistem akan otomatis mengarahkan Organisasi Kemahasiswaan ke halaman detail izin kegiatan.
+ 2. Sistem akan otomatis mengarahkan Organisasi Kemahasiswaan ke halaman detail Izin Kegiatan.
 
 
   .. figure:: images/detail-kegiatan.png
@@ -334,7 +334,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 3. Tekan tombol kembali untuk kembali ke daftar izin kegiatan.
+ 3. Tekan tombol kembali untuk kembali ke daftar Izin Kegiatan.
  4. Apabila ingin mengedit atau memperbarui data, silahkan tekan tombol :code:`Edit`.
 
 
@@ -402,7 +402,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
 **6. Mengajukan izin tempat**
 
- 1. Pilih menu :code:`Izin Tempat`. Secara otomatis Organisasi Kemahasiswaan akan diarahkan ke halaman daftar Izin Tempat. Pilih/tekan tombol :code:`Ajukan Izin tempat` pada pojok kanan atas. Sistem akan menampilkan halaman isian Izin Tempat.
+ 1. Pilih menu :code:`Izin Tempat`. Secara otomatis Organisasi Kemahasiswaan akan diarahkan ke halaman daftar Izin Tempat. Pilih/tekan tombol :code:`Ajukan Izin tempat` pada pojok kanan atas. Sistem akan menampilkan halaman formulir isian Izin Tempat.
 
   
   .. figure:: images/tempat-list.png
@@ -410,7 +410,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 3. Lengkapi kolom isian pada form pengajuan Izin Kegiatan. Lampirkan file :code:`Surat Izin Kegiatan` yang sudah didapat dari persetujuan Izin Kegiatan. Lampirkan dalam bentuk :code:`PDF` atau :code:`docx`.
+ 3. Lengkapi kolom isian pada form pengajuan Izin Kegiatan. Lampirkan file :code:`Surat Izin Kegiatan` yang sudah didapat dari persetujuan Izin Kegiatan.
 
 
   .. figure:: images/tempat-form.png
@@ -419,7 +419,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
 
  4. Tekan tombol :code:`Ajukan` untuk memperoses usulan kegiatan.
- 5. Jika data yang dimasukkan pada form isian valid, sistem akan memberikan pemberitahuan konfirmasi yang memberitahukan bahwa usulan Izin Tempat berhasil dikirimkan ke Wakil Dekan Bidang Umum dan Keuangan untuk diproses. Selanjutnya sitem akan mengarahkan kita ke halaman daftar Izin Tempat yang telah dibuat.
+ 5. Jika data yang dimasukkan pada form isian valid, sistem akan memberikan  konfirmasi pemberitahuan bahwa usulan Izin Tempat berhasil dikirimkan ke Wakil Dekan Bidang Umum dan Keuangan untuk diproses. Selanjutnya sitem akan mengarahkan kita ke halaman daftar Izin Tempat yang telah dibuat.
 
 
   .. figure:: images/izin-tempat.png
@@ -448,7 +448,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan Perbarui untuk menyimpan data.
+ 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan tombol :code:`Perbarui` untuk menyimpan data.
  5. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui.
 
 
@@ -470,8 +470,8 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 2. Sistem akan otomatis menampilkan halaman detail izin kegiatan.
- 3. Unduh lampiran izin kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau proposal kegiatan yang diajukan oleh Organisasi kemahasiswaan.
+ 2. Sistem akan otomatis menampilkan halaman detail Izin Kegiatan.
+ 3. Unduh lampiran Izin Kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau proposal kegiatan yang diajukan oleh Organisasi kemahasiswaan.
 
 
   .. figure:: images/wadek-detail.png
@@ -479,7 +479,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 4. Tekan tombol :code:`Setujui` untuk menyetujui usulan izin kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Kemahasiswaan dapat menambahkan catatan untuk kegiatan yang akan disetujui. Tekan tombol Setujui untuk mengonfirmasi persetujuan.
+ 4. Tekan tombol :code:`Setujui` untuk menyetujui usulan Izin Kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Kemahasiswaan dapat menambahkan catatan untuk kegiatan yang akan disetujui. Tekan tombol :code:`Setujui` untuk mengonfirmasi persetujuan.
 
 
   .. figure:: images/setuju.png
@@ -487,7 +487,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 5. Untuk menolak usulan izin kegiatan. Tekan tombol :code:`Tolak` pada halaman detail kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Kemahasiswaan dapat menambahkan catatan untuk kegiatan yang akan ditolak. Tekan tombol Ok untuk mengonfirmasi persetujuan.
+ 5. Untuk menolak usulan Izin Kegiatan. Tekan tombol :code:`Tolak` pada halaman detail kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Kemahasiswaan dapat menambahkan catatan untuk kegiatan yang akan ditolak. Tekan tombol :code:`OK` untuk mengonfirmasi persetujuan.
 
 
   .. figure:: images/tolak.png
@@ -495,7 +495,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 6. Izin kegiatan yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
+ 6. Izin Kegiatan yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
 
 
 
@@ -514,7 +514,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan Perbarui untuk menyimpan data.
+ 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan tombol :code:`Perbarui` untuk menyimpan data.
  5. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui.
 
 
@@ -529,7 +529,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 **2. Menyetujui/Menolak usulan izin tempat**
 
  1. Pilih menu :code:`Izin Tempat`.
- 2. Klik tombol :code:`Detail` pada usulan izin tempat yang ingin ditinjau. Sistem akan otomatis menampilkan halaman detail izin tempat.
+ 2. Klik tombol :code:`Detail` pada usulan Izin Tempat yang ingin ditinjau. Sistem akan otomatis menampilkan halaman detail Izin Tempat.
 
 
   .. figure:: images/wadek-izin-tempat.png
@@ -537,8 +537,8 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 3. Unduh lampiran proposal izin kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau proposal kegiatan yang diajukan oleh Organisasi kemahasiswaan.
- 4. Unduh lampiran persetujuan izin kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau surat persetujuan izin kegiatan yang telah disetujui oleh Wakil Dekan Bidang Kemahasiswaan.
+ 3. Unduh lampiran proposal Izin Kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau proposal kegiatan yang diajukan oleh Organisasi kemahasiswaan.
+ 4. Unduh lampiran persetujuan Izin Kegiatan dengan menekan tombol :code:`Unduh Lampiran` ,untuk meninjau surat persetujuan Izin Kegiatan yang telah disetujui oleh Wakil Dekan Bidang Kemahasiswaan.
 
 
   .. figure:: images/wadek-izin-detail.png
@@ -546,7 +546,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 5. Tekan tombol :code:`Setujui` untuk menyetujui usulan izin tempat. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Umum dan Keuangan dapat menambahkan catatan untuk usulan izin tempat yang akan disetujui. Tekan tombol Setujui untuk mengonfirmasi persetujuan.
+ 5. Tekan tombol :code:`Setujui` untuk menyetujui usulan Izin Tempat. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Umum dan Keuangan dapat menambahkan catatan untuk usulan Izin Tempat yang akan disetujui. Tekan tombol :code:`Setujui` untuk mengonfirmasi persetujuan.
 
 
   .. figure:: images/izin-setuju.png
@@ -554,7 +554,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 6. Untuk menolak usulan izin tempat. Tekan tombol :code:`Tolak` pada halaman detail kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Umum dan Keuangan dapat menambahkan catatan untuk usulan izin tempat yang akan ditolak. Tekan tombol Ok untuk mengonfirmasi persetujuan.
+ 6. Untuk menolak usulan Izin Tempat. Tekan tombol :code:`Tolak` pada halaman detail kegiatan. Sistem akan menampilkan jendela konfirmasi. Bila diperlukan, Wakil Dekan Bidang Umum dan Keuangan dapat menambahkan catatan untuk usulan Izin Tempat yang akan ditolak. Tekan tombol :code:`Ok` untuk mengonfirmasi persetujuan.
 
 
   .. figure:: images/izin-batal.png
@@ -562,7 +562,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 7. Izin tempat yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
+ 7. Izin Tempat yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
 
 
 5. Kepala Bagian Tata Usaha
@@ -579,20 +579,20 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 **1. Memperbarui detail akun**
 
  1. Lakukan proses otentikasi melalui halaman Login.
- 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Wakil Dekan Bidang Kemahasiswaan akan secara otomatis diarahkan ke halaman Dashboard.
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Kasubag Akademik akan secara otomatis diarahkan ke halaman Dashboard.
  3. Pilih menu :code:`Kelola Akun Saya`.
 
   
-  .. figure:: images/wadek1-pp.png
+  .. figure:: images/kabag.png
      :width: 600
      :alt: gambar 5. Kelola Akun
 
 
- 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan Perbarui untuk menyimpan data.
+ 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan :code:`Perbarui` untuk menyimpan data.
  5. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui.
 
 
-  .. figure:: images/wadek1-ok.png
+  .. figure:: images/kabag-ok.png
      :width: 600
      :alt: gambar 5. Kelola Akun
 
@@ -602,7 +602,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
 **2. Membuat data capaian kinerja**
 
- 1. Pilih menu :code:`Capaian Kinerja`. terdapat empat kategori Capaian Kinerja yang dapat dipilih yaitu kinerja Pendidikan, kemhasiswaan, Penelitian dan Kelembagaan. Pilih pada salah satu kategori yang akan diinputkan datanya, misalnya ketegori Pendidikan.
+ 1. Pilih menu :code:`Capaian Kinerja`. Terdapat empat kategori Capaian Kinerja yang dapat dipilih yaitu kinerja Pendidikan, Kemahasiswaan, Penelitian dan Kelembagaan. Pilih pada salah satu kategori yang akan diinputkan datanya, misalnya ketegori Pendidikan.
 
 
   .. figure:: images/pendidikan.png
@@ -622,10 +622,10 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
  4. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil disimpan. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
 
- **3. Melihat detail data capaian kinerja**
+**3. Melihat detail data capaian kinerja**
 
  1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan dilihat detail datanya, misalnya ketegori Pendidikan.
- 2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan dilihat detail datanya datanya. 
+ 2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan dilihat detail datanya. 
 
 
   .. figure:: images/opsi-pendidikan.png
@@ -633,7 +633,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 3. Pilih :code:`Details` , sistem akan otomatis menampilkan halaman detail data Capaian Kinerja Pendidikan.
+ 3. Pilih :code:`Detail` , sistem akan otomatis menampilkan halaman detail data Capaian Kinerja Pendidikan.
 
 
   .. figure:: images/detail-pendidikan.png
@@ -641,7 +641,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- **4. Memperbarui data capaian kinerja**
+**4. Memperbarui data capaian kinerja**
 
  1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan diperbarui datanya, misalnya ketegori Pendidikan.
  2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan diperbarui datanya. Pilih :code:`Edit` , sistem akan otomatis menampilkan halaman formulir isian data Capaian Kinerja Pendidikan.
@@ -663,7 +663,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
  4. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
 
-  **5. Menghapus data capaian kinerja**
+**5. Menghapus data capaian kinerja**
 
  1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan dihapus datanya, misalnya ketegori Pendidikan.
  2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan dihapus datanya.
