@@ -138,7 +138,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
  2. Pilih :code:`Aktifkan`. Sistem akan menampilkan jendela konfirmasi, apakah proses pengaktifan akun akan diteruskan atau tidak. Pilih OK untuk mengkonfirmasi pengaktifan akun. 
 
 
-  .. figure:: images/aktifkan-kembali.png
+  .. figure:: images/aktifkan-lagi.png
      :width: 600
      :alt: gambar 4. Hapus Pengguna
 
