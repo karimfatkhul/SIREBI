@@ -3,18 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. _Panduan_Pengguna:
-
+*****************
 Panduan Pengguna
-=================================================
+*****************
 
-Berikut panduan penggunanaan SIREBI berdasarlan peran masing-masing
+Berikut panduan penggunanaan SIREBI berdasarkan peran masing-masing penguna.
 
 
-Admin
-=================================================
+1. Admin
+=========
 	
 Secara default, SIREBI mempunyai satu akun pengguna yang perannya sebagai Admin. Selanjutnya Admin dapat membuat akun untuk pengguna-pengguna lainnya sesuai dengan peran yang diinginkan.
+
+
+.. note::
+    Pengguna dengan peran sebagai Admin, secara otomatis akan mempunyai hak akses sebagai Admin disemua sistem informasi yang ada (SIREBI, SIPRESMA dan SILAMA). Jadi ketika kita membuat pengguna dengan peran sebagai Admin melalui SIREBI, maka secara otomatis pengguna yang baru saja dibuat tersebut dapat mengakses SIPRESMA dan SILAMA dengan hak akses sebagai Admin. 
+
 
 **1. Pembuatan Akun Pengguna**
 
@@ -28,7 +32,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
 	   :alt: gambar 1. halaman login
 
 
- 2.	Jika kombinasi nama pengguna dan  sesuai, Admin akan secara otomatis diarahkan ke halaman Dashboard.
+ 2.	Jika kombinasi nama pengguna dan kata sandi sesuai, Admin akan secara otomatis diarahkan ke halaman Dashboard.
  3.	Pilih menu :code:`Kelola Pengguna`.
  4.	Lalu pada pojok kanan atas, pilih atau tekan tombol :code:`Tambah Pengguna`. Selanjutnya secara otomatis Admin akan diarahkan ke halaman tambah pengguna.
 
@@ -38,7 +42,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
      :alt: gambar 2. Tambah pengguna
 
 
- 5.	Pada halaman tambah pengguna, isikan semua detail pengguna sesuai dengan kolom isian yang ada.
+ 5.	Pada halaman tambah pengguna, isikan semua detail data pengguna sesuai dengan kolom isian yang ada.
  6.	Pada kolom peran pengguna, pilih peran pengguna sesuai dengan peran yang diinginkan.
 
 
@@ -48,6 +52,12 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
 
 
  7.	Tekan tombol :code:`Simpan` untuk menyimpan data.
+
+
+  .. note::
+    Pastikan alamat email yang digunakan untuk mendaftar adalah alamat email yang aktif.
+
+
  8. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa data berhasil disimpan, dan Admin akan secara otomatis diarahkan ke halaman daftar pengguna yang sudah dibuat. Sistem juga secara otomatis akan mengirimkan detail nama pengguna dan kata sandi ke alamat email dari pengguna yang baru saja dibuat. Detail nama pengguna dan kata sandi ini diperlukan oleh pengguna untuk proses otentikasi di halaman login ketika akan mengakses layanan SIREBI.
  9.  Jika data isian tidak sesuai, sistem akan memberikan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
@@ -72,7 +82,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
 
 **2.  Memperbarui detail akun pengguna**
 
- 1. Pada halaman daftar pengguna, klik tanda :code:`...` pada kolom opsi pada akun pengguna yang ingin diperbarui detailnya.
+ 1. Pada halaman daftar pengguna, klik tanda :code:`...` pada kolom opsi pada akun pengguna yang ingin diperbarui datanya.
 
 
   .. figure:: images/detail-pengguna.png
@@ -88,9 +98,14 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
      :alt: gambar 4. Edit Pengguna
 
 
-**3.  Menghapus akun pengguna**
+3. Isikan data pada kolom isian yang ingin diperbarui datanya.
+4. Tekan tombol :code:`Simpan`.
+5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
- 1. Pada halaman daftar pengguna, klik tanda :code:`...` pada kolom opsi pada akun pengguna yang ingin diperbarui detailnya.
+
+**3.  Menonaktifkan akun pengguna**
+
+ 1. Pada halaman daftar pengguna, klik tanda :code:`...` pada kolom opsi pada akun pengguna yang ingin dinonaktifkan.
 
 
   .. figure:: images/detail-pengguna.png
@@ -98,7 +113,7 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
      :alt: gambar 4. Detail Pengguna
 
 
- 2. Pilih :code:`Hapus`. Sistem akan menampilkan jendela konfirmasi, apakah proses penghapusan akun akan diteruskan atau tidak. Pilih OK untuk mengkonfirmasi penghapusan akun. 
+ 2. Pilih :code:`Nonaktifkan`. Sistem akan menampilkan jendela konfirmasi, apakah proses penonaktifan akun akan diteruskan atau tidak. Pilih OK untuk mengkonfirmasi penonaktifan akun. 
 
 
   .. figure:: images/hapus-pengguna.png
@@ -106,9 +121,140 @@ Pembuatan akun pengguna hanya dapat dilakukan oleh pengguna dengan peran atau ha
      :alt: gambar 4. Hapus Pengguna
 
 
+  .. note::
+    Pengguna yang akunnya telah dinonaktifkan tidak dapat lagi mengakses layanan sistem informasi yang ada. Untuk dapat menggunakan lagi layanan sistem informasi yang ada, akun pengguna yang telah dinonaktifkan harus diaktifkan lagi oleh Admin.
 
-Organisasi Kemahasiswaan
-=================================================
+
+**4.  Mengaktifkan kembali akun pengguna**
+
+ 1. Pada halaman daftar pengguna, klik tanda :code:`...` pada kolom opsi pada akun pengguna yang ingin diaktifkan kembali akunnya.
+
+
+  .. figure:: images/aktifkan.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Pilih :code:`Aktifkan`. Sistem akan menampilkan jendela konfirmasi, apakah proses pengaktifan akun akan diteruskan atau tidak. Pilih OK untuk mengkonfirmasi pengaktifan akun. 
+
+
+  .. figure:: images/aktifkan-kembali.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**5.  Menambahkan daftar Organisasi Kemahasiswaan**
+
+ 1. Pada panel menu di sebelah kiri, pilih menu :code:`Organisasi Kemahasiswaan`. Sistem akan menampilkan daftar Organisasi Kemahaiswaan, tekan tombol :code:`Tambah Organisasi` untuk menambahkan Organisasi Kemahasiswaan baru.
+
+
+  .. figure:: images/organisasi.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk menambahkan Organisasi Kemahasiswaan baru. Isi semua kolom isian dan tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/form-organisasi.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**6.  Memperbarui data Organisasi Kemahasiswaan**
+
+ 1. Pada daftar Organisasi Kemahasiswaan klik tanda :code:`...` pada kolom Opsi pada baris Organisasi Kemahasiswaan yang ingin diperbarui. Pilih :code:`Edit`.
+
+
+  .. figure:: images/opsi-organisasi.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk memperbarui data Organisasi Kemahasiswaan. Isi data dengan data yang baru pada  kolom isian yang ingin diperbarui datanya. Tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/edit-organisasi.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**7.  Menghapus data Organisasi Kemahasiswaan**
+
+ 1. Pada daftar Organisasi Kemahasiswaan klik tanda :code:`...` pada kolom Opsi pada baris Organisasi Kemahasiswaan yang ingin dihapus. Pilih :code:`Hapus`.
+
+
+  .. figure:: images/opsi-organisasi.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman konfirmasi penghapusan. Tekan tombol :code:`Ok` untuk menghapus data . 
+
+
+  .. figure:: images/delete-organisasi.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**8.  Menambahkan Daftar Tempat**
+
+ 1. Pada panel menu di sebelah kiri, pilih menu :code:`Daftar Tempat`. Sistem akan menampilkan list Daftar Tempat, tekan tombol :code:`Tambah Data Tempat` untuk menambahkan data tempat baru.
+
+
+  .. figure:: images/tempat.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk menambahkan data tempat baru. Isi semua kolom isian dan tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/form-tempat.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**6.  Memperbarui data Tempat**
+
+ 1. Pada daftar Tempat klik tanda :code:`...` pada kolom Opsi pada baris Tempat yang ingin diperbarui. Pilih :code:`Edit`.
+
+
+  .. figure:: images/opsi-tempat.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk memperbarui data Tempat. Isi data dengan data yang baru pada  kolom isian yang ingin diperbarui datanya. Tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/form-tempat.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**7.  Menghapus data Tempat**
+
+ 1. Pada daftar Tempat klik tanda :code:`...` pada kolom Opsi pada baris Tempat yang ingin dihapus. Pilih :code:`Hapus`.
+
+
+  .. figure:: images/opsi-tempat.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman konfirmasi penghapusan. Tekan tombol :code:`Ok` untuk menghapus data . 
+
+
+  .. figure:: images/delete-tempat.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+
+
+2. Organisasi Kemahasiswaan
+============================
 
 Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun Organisasi Kemahasiswaan sudah dibuat oleh Admin. Jika Admin sudah membuatkan akun untuk masing-masing Organisasi Kemahasiswaan, Organisasi Kemahasiswaan dapat mengecek pada pesan masuk di email masing-masing Organisasi Kemahasiswaan untuk mendapatkan detail nama pengguna dan kata sandi untuk proses login.
 
@@ -134,7 +280,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui
+ 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
 
 **2. Mengajukan izin kegiatan**
@@ -287,8 +433,8 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
 
 
-Wakil Dekan Bidang Kemahasiswaan
-=================================================
+3. Wakil Dekan Bidang Kemahasiswaan
+====================================
 	
 **1. Memperbarui detail akun**
 
@@ -311,7 +457,7 @@ Wakil Dekan Bidang Kemahasiswaan
      :alt: gambar 5. Kelola Akun
 
 
- 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui
+ 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
 
 **2. Menyetujui/Menolak usulan izin kegiatan**
@@ -353,8 +499,8 @@ Wakil Dekan Bidang Kemahasiswaan
 
 
 
-Wakil Dekan Bidang Umum dan Keuangan
-=================================================
+4. Wakil Dekan Bidang Umum dan Keuangan
+========================================
 
 **1. Memperbarui detail akun**
 
@@ -377,7 +523,7 @@ Wakil Dekan Bidang Umum dan Keuangan
      :alt: gambar 5. Kelola Akun
 
 
- 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui
+ 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
 
 **2. Menyetujui/Menolak usulan izin tempat**
@@ -419,13 +565,119 @@ Wakil Dekan Bidang Umum dan Keuangan
  7. Izin tempat yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
 
 
-Kepala Bagian Tata Usaha
-=================================================
+5. Kepala Bagian Tata Usaha
+============================
 
 
 	:code:`Kepala bagian Tata Usaha` mempunyai peran dan hak akses untuk memonitor jalannya proses perizinan yang dilakukan oleh Organisasi Kemahasiswaan. Selanjutnya, apabila perizinan kegiatan atau perizinan tempat disetujui oleh Wakil Dekan Bidang Kemahasiswaan dan Wakil Dekan Bidang Umum dan Keuangan, :code:`Kepala bagian Tata Usaha` akan menyiapkan surat persetujuan untuk perizinan tersebut.
 
-Kasubag Akademik
-=================================================
+6. Kasubag Akademik
+====================
 
-	:code:`Kasubag Akademik` mempunyai hak akses untuk melakukan rekapitulasi terhadap semua proses perizinan yang sedang berjalan, sebagai bentuk kontrol dan tanggung jawab serta laporan bagi Fakultas.
+	:code:`Kasubag Akademik` mempunyai hak akses untuk melakukan rekapitulasi terhadap semua proses perizinan yang sedang berjalan, sebagai bentuk kontrol dan tanggung jawab serta laporan bagi Fakultas. Selain itu, :code:`Kasubag Akademik` juga mempunyai hak akses untuk membuat data Capaian Kinerja.
+
+**1. Memperbarui detail akun**
+
+ 1. Lakukan proses otentikasi melalui halaman Login.
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Wakil Dekan Bidang Kemahasiswaan akan secara otomatis diarahkan ke halaman Dashboard.
+ 3. Pilih menu :code:`Kelola Akun Saya`.
+
+  
+  .. figure:: images/wadek1-pp.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan Perbarui untuk menyimpan data.
+ 5. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui.
+
+
+  .. figure:: images/wadek1-ok.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+
+**2. Membuat data capaian kinerja**
+
+ 1. Pilih menu :code:`Capaian Kinerja`. terdapat empat kategori Capaian Kinerja yang dapat dipilih yaitu kinerja Pendidikan, kemhasiswaan, Penelitian dan Kelembagaan. Pilih pada salah satu kategori yang akan diinputkan datanya, misalnya ketegori Pendidikan.
+
+
+  .. figure:: images/pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 2. Tekan tombol :code:`Input Data Baru`. Sistem akan otomatis menampilkan halaman formulir isian data Capaian Kinerja Pendidikan.
+
+
+  .. figure:: images/form-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Isi semua data sesuai kolom isian yang ada. Tekan :code:`Simpan` untuk menyimpan data Capaian Kinerja Pendidikan.
+ 4. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil disimpan. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+
+ **3. Melihat detail data capaian kinerja**
+
+ 1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan dilihat detail datanya, misalnya ketegori Pendidikan.
+ 2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan dilihat detail datanya datanya. 
+
+
+  .. figure:: images/opsi-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Pilih :code:`Details` , sistem akan otomatis menampilkan halaman detail data Capaian Kinerja Pendidikan.
+
+
+  .. figure:: images/detail-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ **4. Memperbarui data capaian kinerja**
+
+ 1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan diperbarui datanya, misalnya ketegori Pendidikan.
+ 2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan diperbarui datanya. Pilih :code:`Edit` , sistem akan otomatis menampilkan halaman formulir isian data Capaian Kinerja Pendidikan.
+
+
+  .. figure:: images/opsi-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Isikan data pada kolom isian yang ingin diperbarui. Tekan :code:`Simpan` untuk menyimpan data.
+
+
+  .. figure:: images/edit-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 4. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+
+  **5. Menghapus data capaian kinerja**
+
+ 1. Pada menu :code:`Capaian Kinerja`, pilih  salah satu kategori Capaian Kinerja yang akan dihapus datanya, misalnya ketegori Pendidikan.
+ 2. Tekan tanda :code:`...` pada kolom opsi pada baris data yang akan dihapus datanya.
+
+
+  .. figure:: images/opsi-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Pilih :code:`Hapus` , sistem akan otomatis menampilkan jendela konfirmasi penghapusan data Capaian Kinerja Pendidikan. Tekan :code:`Ya, Hapus` untuk mengkonfirmasi penghapusan data.
+
+
+  .. figure:: images/hapus-pendidikan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+

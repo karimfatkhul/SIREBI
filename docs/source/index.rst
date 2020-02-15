@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+***************
 Pendahuluan
-=================================================
+***************
 
 Selamat datang di SIREBI.
 
@@ -15,7 +16,7 @@ Melalui sistem ini, diharapkan nantinya proses perizinan kegiatan dan perizinan 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Daftar Isi:
+   :caption: Daftar Isi
 
    peran pengguna
    panduan pengguna
