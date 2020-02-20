@@ -17,7 +17,7 @@ Secara default, SIREBI mempunyai satu akun pengguna yang perannya sebagai Admin.
 
 
 .. note::
-    Pengguna dengan peran sebagai Admin, secara otomatis akan mempunyai hak akses sebagai Admin disemua sistem informasi yang ada (SIREBI, SIPRESMA dan SILAMA). Jadi ketika kita membuat pengguna dengan peran sebagai Admin melalui SIREBI, maka secara otomatis pengguna yang baru saja dibuat tersebut dapat mengakses SIPRESMA dan SILAMA dengan hak akses sebagai Admin. 
+    Pengguna dengan peran sebagai Admin, secara otomatis akan mempunyai hak akses sebagai Admin disemua sistem informasi yang ada (SIREBI, SIPRESMA dan SIYANMA). Jadi ketika kita membuat pengguna dengan peran sebagai Admin melalui SIREBI, maka secara otomatis pengguna yang baru saja dibuat tersebut dapat mengakses SIPRESMA dan SIYANMA dengan hak akses sebagai Admin. 
 
 
 **1. Pembuatan Akun Pengguna**
@@ -311,7 +311,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
 
   :code:`Disetujui` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan telah disetujui. Nantinya Organisasi Kemahasiswaan akan mendapatkan surat persetujuan yang dapat di unduh melalui SIREBI.
 
-  :code:`Ditolak` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan tidak disetujui. Organisasi Kemahasiswaan dapat melihat alasan penolakan pada detail pengajuan usualan izin kegiatan. Selanjutnya jika diperlukan, Organisasi Kemahasiswaan dapat merevisi pengjuan usulan kegiatan untuk kembali diajukan ke Wakil Dekan Bidang Kemahasiswaan. 
+  :code:`Ditolak` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan tidak disetujui. Organisasi Kemahasiswaan dapat melihat alasan penolakan pada detail pengajuan usualan izin kegiatan. Selanjutnya jika diperlukan, Organisasi Kemahasiswaan dapat merevisi pengajuan usulan kegiatan untuk kembali diajukan ke Wakil Dekan Bidang Kemahasiswaan. 
 
  8. Organisasi Kemahasiswaan akan mendapatkan pemberitahuan untuk setiap perubahan status dari usulan izin kegiatan yang diajukan. Pemberitahuan dapat dilihat pada ikon lonceng di sisi kanan atas ataupun melalui email Organisasi kemahasiswaan.
 
