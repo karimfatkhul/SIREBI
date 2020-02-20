@@ -305,11 +305,13 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
  4. Tekan tombol :code:`Ajukan` untuk memperoses usulan kegiatan.
  5. Jika data yang dimasukkan pada form isian valid, sistem akan memberikan pemberitahuan konfirmasi yang memberitahukan bahwa usulan kegiatan berhasil dikirimkan ke Wakil Dekan Bidang Kemahasiswaan untuk diproses. Selanjutnya sitem akan mengarahkan kita ke halaman daftar Izin Kegiatan yang telah dibuat.
  6. Jika data isian yang dimasukkan pada form isian tidak valid, sitem akan menampilkan pesan error. Ikuti petunjuk pada pesan error untuk mengatasi masalah yang ditemui.
- 7. Status pengajuan usulan izin kegiatan dapat dilihat dalam Daftar Izin Kegiatan. Terdapat 3 status sesuai masing-masing kondisi yaitu menunggu, disetujui dan ditolak. 
+ 7. Status pengajuan usulan izin kegiatan dapat dilihat dalam Daftar Izin Kegiatan pada kolom status. Terdapat 4 status sesuai masing-masing kondisi yaitu menunggu, disetujui, menunggu surat dan ditolak. 
 
   :code:`Menunggu` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan masih dalam tahap pertimbangan oleh pihak Wakil Dekan Bidang Kemahasiswaan.
 
   :code:`Disetujui` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan telah disetujui. Nantinya Organisasi Kemahasiswaan akan mendapatkan surat persetujuan yang dapat di unduh melalui SIREBI.
+
+  :code:`Menunggu Surat` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan telah disetujui akan tetapi surat perizinan masih dalam proses persiapan oleh pihak Kepala Bagian Tata Usaha Fakultas. 
 
   :code:`Ditolak` berarti pengajuan usulan izin kegiatan oleh Organisasi kemahasiswaan tidak disetujui. Organisasi Kemahasiswaan dapat melihat alasan penolakan pada detail pengajuan usualan izin kegiatan. Selanjutnya jika diperlukan, Organisasi Kemahasiswaan dapat merevisi pengajuan usulan kegiatan untuk kembali diajukan ke Wakil Dekan Bidang Kemahasiswaan. 
 
@@ -495,7 +497,7 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 6. Izin Kegiatan yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
+ 6. Izin Kegiatan yang telah dikonfirmasi persetujuannya akan diteruskan ke pihak Kepala Bagian Tata Usaha untuk dibuatkan surat perizinannya.
 
 
 
@@ -562,14 +564,88 @@ Untuk bisa mendapatkan akses dan menggunakan layanan SIREBI, pastikan bahwa akun
      :alt: gambar 5. Kelola Akun
 
 
- 7. Izin Tempat yang telah dikonfirmasi persetujuannya akan berubah statusnya dari menunggu menjadi ditolak atau disetujui.
+ 7. yang telah dikonfirmasi persetujuannya akan diteruskan ke pihak Kepala Bagian Tata Usaha untuk dibuatkan surat perizinannya.
 
 
 5. Kepala Bagian Tata Usaha
 ============================
 
-
 	:code:`Kepala bagian Tata Usaha` mempunyai peran dan hak akses untuk memonitor jalannya proses perizinan yang dilakukan oleh Organisasi Kemahasiswaan. Selanjutnya, apabila perizinan kegiatan atau perizinan tempat disetujui oleh Wakil Dekan Bidang Kemahasiswaan dan Wakil Dekan Bidang Umum dan Keuangan, :code:`Kepala bagian Tata Usaha` akan menyiapkan surat persetujuan untuk perizinan tersebut.
+
+**1. Memperbarui detail akun**
+
+ 1. Lakukan proses otentikasi melalui halaman Login.
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Kepala Bagian Tata Usaha akan secara otomatis diarahkan ke halaman Dashboard.
+ 3. Pilih menu :code:`Kelola Akun Saya`.
+
+  
+  .. figure:: images/tu-profil.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 4. Isikan data sesuai dengan kolom yang ingin diperbarui. Lalu tekan :code:`Perbarui` untuk menyimpan data.
+ 5. Jika data yang dimasukkan valid, maka akan muncul pemberitahuan bahwa data berhasil diperbarui.
+
+
+  .. figure:: images/tu-ok.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 6. Jika data yang dimasukkan tidak valid, maka akan muncul pemberitahuan  pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+
+**2. Mengopload surat izin kegiatan**
+
+ 1. Pilih menu :code:`Izin Kegiatan`. Sistem akan mengarahkan ke halaman daftar Izin Kegiatan. Pilih  :code:`Detail` pada baris kegiatan dengan status :code:`Menunggu Surat` yang ingin disiapkan surat izinnya.
+
+  
+  .. figure:: images/tu-kegiatan-list.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 2. Pada halaman detail kegiatan, pilih :code:`Upload Surat Izin` untuk mengupload surat izin.
+
+
+  .. figure:: images/tu-kegiatan.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Muncul jendela konfirmasi. Masukkan file yang ingin d upload lalu tekan OK untuk melanjutkan.
+
+
+  .. figure:: images/tu-upload.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+**3. Mengopload surat izin tempat**
+
+ 1. Pilih menu :code:`Izin Tempat`. Sistem akan mengarahkan ke halaman daftar Izin Tempat. Pilih  :code:`Detail` pada baris pengajuan izin tempat dengan status :code:`Menunggu Surat` yang ingin disiapkan surat izinnya.
+
+  
+  .. figure:: images/tu-tempat-list.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 2. Pada halaman detail kegiatan, pilih :code:`Upload Surat Izin` untuk mengupload surat izin.
+
+
+  .. figure:: images/tu-tempat.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
+
+ 3. Muncul jendela konfirmasi. Masukkan file yang ingin d upload lalu tekan OK untuk melanjutkan.
+
+
+  .. figure:: images/tu-upload.png
+     :width: 600
+     :alt: gambar 5. Kelola Akun
+
 
 6. Kasubag Akademik
 ====================
